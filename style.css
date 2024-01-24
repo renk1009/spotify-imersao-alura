@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegation {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navegation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    
+}
+
+.sidebar_navegation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navegation .logo img {
+    width: 80px;
+}
+
+.navegation nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.navegation ul li {
+    padding: 10px 0;
+}
+
+.navegation nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 0 0 12px;
+    width: 300px;
+}
+
+
+.sidebar_biblioteca {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+
+.biblioteca nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar_biblioteca li {
+    display: inline-block;
+}
+
+.book {
+    margin-right: 129px;
+}
